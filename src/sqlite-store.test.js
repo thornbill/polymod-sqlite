@@ -1,6 +1,6 @@
 /* eslint-env jest */
 const fs = require('fs')
-const SqliteStore = require('./sqlite-store')
+const { SqliteStore } = require('./')
 
 const testCreateDatabase = async function(store) {
 	expect(await store._isEmpty()).toBe(true)
