@@ -2,6 +2,12 @@
 
 A library to support SQLite data sources in [Polymod](https://github.com/dstreet/polymod).
 
+## Install
+
+```
+npm install --save polymod polymod-sqlite
+```
+
 ## License
 
 [MIT License](LICENSE)
