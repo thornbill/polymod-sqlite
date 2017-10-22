@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest",
     "build": "webpack",
+    "postversion": "git push && git push --tags",
     "prepublish": "npm run build"
   },
   "repository": {
