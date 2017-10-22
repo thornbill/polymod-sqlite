@@ -9,7 +9,7 @@ A library to support SQLite data sources in [Polymod](https://github.com/dstreet
 ## Documentation
 
 This library implements the specifications for Sources in Polymod.
-Additional information about using Sources with Polymod can be found in the [Polymod documentation](https://github.com/dstreet/polymod#sources).
+Additional information about using Sources in Polymod can be found in the [Polymod documentation](https://github.com/dstreet/polymod#sources).
 
 ### SqliteSource
 
