@@ -5,7 +5,7 @@ module.exports = {
 	output: {
 		filename: 'index.js',
 		path: path.resolve(__dirname, 'dist'),
-		library: 'polymod',
+		library: 'polymod-sqlite',
 		libraryTarget: 'commonjs2'
 	},
 	module: {
@@ -19,5 +19,7 @@ module.exports = {
 				}]
 			}
 		]
-	}
+	},
+	target: 'node',
+	externals: ['sqlite3']
 }
