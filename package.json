@@ -1,6 +1,6 @@
 {
   "name": "polymod-sqlite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A sqlite data source for polymod.",
   "main": "dist/index.js",
   "scripts": {
