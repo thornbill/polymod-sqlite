@@ -1,0 +1,36 @@
+{
+  "name": "polymod-sqlite",
+  "version": "1.0.0",
+  "description": "A sqlite data source for polymod.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thornbill/polymod-sqlite.git"
+  },
+  "author": "Bill Thornton <bill@billt.me>",
+  "license": "MIT",
+  "peerDependencies": {
+    "polymod": "4.x"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "eslint": "^4.9.0",
+    "jest": "^21.2.1",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "debug": "^3.1.0",
+    "sqlite": "^2.8.0",
+    "uuid": "^3.1.0"
+  }
+}
