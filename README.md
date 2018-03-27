@@ -1,5 +1,7 @@
 # Polymod-SQLite
 
+[![Build Status](https://travis-ci.org/thornbill/polymod-sqlite.svg?branch=master)](https://travis-ci.org/thornbill/polymod-sqlite)
+
 A library to support SQLite data sources in [Polymod](https://github.com/dstreet/polymod).
 
 ## Install
