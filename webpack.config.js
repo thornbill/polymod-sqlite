@@ -1,4 +1,5 @@
 const path = require('path')
+const MinifyPlugin = require('babel-minify-webpack-plugin')
 
 module.exports = {
 	entry: ['./src/index.js'],
@@ -8,6 +9,9 @@ module.exports = {
 		library: 'polymod-sqlite',
 		libraryTarget: 'commonjs2'
 	},
+	plugins: [
+		new MinifyPlugin()
+	],
 	module: {
 		rules: [
 			{
